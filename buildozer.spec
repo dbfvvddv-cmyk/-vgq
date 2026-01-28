@@ -5,15 +5,15 @@ package.domain = org.test
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
-requirements = python3,kivy
+requirements = python3,kivy==2.3.0,pillow
 
 # (مهم جداً) إعدادات الأندرويد
 android.accept_sdk_license = True
-android.api = 31
+android.api = 33
 android.minapi = 21
 android.sdk = 31
 android.ndk = 25b
-android.archs = arm64-v8a, armeabi-v7a
+android.archs = arm64-v8a
 android.allow_backup = True
 
 # أيقونة التطبيق (يمكنك تغييرها لاحقاً)
